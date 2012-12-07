@@ -1,4 +1,4 @@
-#Backup all of your Beanstalk repos using Beanstalkapp API & Ruby
+#Backup your Beanstalk repos using Beanstalkapp API & Ruby
 ****
 
 It's super simple! All this script does is utilize the Beanstalkapp API to connect to your account (must have API access enabled in your account), get the list of all of your repos in your account, then it will clone any repos it hasn't cloned yet. And if it has cloned it, it will pull all the latest changes, branches, tags, etc.
@@ -7,7 +7,7 @@ This was originally built so that I have a local archive of all of my work in ca
 
 ###Steps & Requirements
 
-- Update the archiveRepos.rb with your username and password
+- Update the archiveRepos.rb with your username, password, and subdomain of your account (e.g. 'markdown')
 
 - Must have Ruby installed (tested with 1.8.7)
 
