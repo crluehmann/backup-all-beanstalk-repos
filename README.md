@@ -1,5 +1,5 @@
-#Backup all of your beanstalk apps using Beanstalkapp API and Ruby
-==========================
+#Backup all of your Beanstalk repos using Beanstalkapp API & Ruby
+****
 
 It's super simple! All this script does is utilize the Beanstalkapp API to connect to your account (must have API access enabled in your account), get the list of all of your repos in your account, then it will clone any repos it hasn't cloned yet. And if it has cloned it, it will pull all the latest changes, branches, tags, etc.
 
