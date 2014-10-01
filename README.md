@@ -18,4 +18,8 @@ This was originally built so that I have a local archive of all of my work in ca
 - Create a cron job to run this at whatever interval you desire! *(Probably nightly)*
 
 ## Major Update
+Oct 1, 2014
+
 The original beanstalkapp gem is no longer supported and working. Turns out they stopped supporting it almost 3 years ago but it still worked fine. Use the newest version to make sure it keeps working properly now and in the future.
+
+This release is using the standard http library for ruby to run raw HTTP requests to get the data, so it should work much better and not rely on their abondoned gem.
