@@ -7,12 +7,15 @@ This was originally built so that I have a local archive of all of my work in ca
 
 ###Steps & Requirements
 
-- Update the archiveRepos.rb with your username, password, and subdomain of your account (e.g. 'markdown')
+- Update the archiveRepos.rb with your username, auth tokeen, and subdomain of your account
 
 - Must have Ruby installed (tested with 1.8.7)
 
-- Must install the 'beanstalkapp' gem: $ gem install beanstalkapp *Might have to run this as sudo*
+- Must install the 'json' and 'http' gem: $ gem install http; gem install json
 
-- Must have git installed
+- Must have git installed & run $ git init
 
 - Create a cron job to run this at whatever interval you desire! *(Probably nightly)*
+
+## Major Update
+The original beanstalkapp gem is no longer supported and working. Turns out they stopped supporting it almost 3 years ago but it still worked fine. Use the newest version to make sure it keeps working properly now and in the future.
